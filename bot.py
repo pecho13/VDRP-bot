@@ -8,7 +8,7 @@ from datetime import datetime
 # ─────────────────────────────────────────────
 #  KONFIGURÁCIA
 # ─────────────────────────────────────────────
-TOKEN = "TVOJ_BOT_TOKEN_TU"          # <-- vlož sem token z Discord Developer Portal
+TOKEN = os.environ.get("TOKEN")        # <-- vlož sem token z Discord Developer Portal
 PREFIX = "!"
 TICKET_CATEGORY_NAME = "🎫 Tickety"
 LOG_CHANNEL_NAME = "mod-logy"
