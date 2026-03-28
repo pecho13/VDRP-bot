@@ -47,7 +47,7 @@ async def on_ready():
     await bot.change_presence(
         activity=discord.Activity(
             type=discord.ActivityType.watching,
-            name="KE:RP | Košice RP 🏙️"
+            name="VD:RP | Vychod RP 🏙️"
         )
     )
 
@@ -62,7 +62,7 @@ async def on_member_join(member: discord.Member):
         return
 
     embed = discord.Embed(
-        title="👋 Vitaj na KE:RP | Košice RP!",
+        title="👋 Vitaj na VD:RP | Vychod RP!",
         description=(
             f"Ahoj {member.mention}, sme radi, že si tu! 🎉\n\n"
             "🏙️ **KE:RP** je slovenský roleplay server zasadený do Košíc.\n"
